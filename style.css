@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 /* header start */
 .header{
@@ -46,6 +46,7 @@ h1{
 /* failure section start */
 .failure-section{
 margin-top: 100px;
+margin-bottom: 50px;
 }
 
 .failure-div-parent{
@@ -60,9 +61,11 @@ margin-top: 100px;
 
 }
 .failure-div p{
-    
+    font-weight: 400;
+    font-size: 16px;
     margin-top: 0px;
     margin-bottom: 30px;
+    color: #444343;
     
 }
 .failure-div img{
@@ -78,8 +81,80 @@ h2{
 }
 ul li{
     list-style: none; 
-   
+}
+.list-text-color{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
 }
 
 
 /* failure section end */
+
+
+/* my-plans section start */
+.target-2023{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 30px;
+    color:#151414 ; 
+}
+.plans-paragraph{
+    color: #737272;
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+}
+.my-plans-img{
+    width: 80px;
+  height: 80px;
+}
+/* my-plans section end */
+
+
+/* Extra-section start */
+.extra{
+    margin: 80px 180px;
+    height: 300px;
+    background-image: url(images/gradient3.png),url(images/watch.png);
+    background-position: left right , left right;
+    background-size: cover;
+    background-repeat: no-repeat , no-repeat; 
+    position: relative;
+
+}
+.bonus-point{
+    left: 30px;
+    position: absolute;
+    color: azure;
+}
+.bonus-point-header{
+    color:#ffffff;
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+
+}
+.bonus-btn{
+    color: #F15B22;
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+padding: 10px 20px;
+border: 1px solid #ffffff;
+border-radius: 5px 10px;
+text-align: center;
+}
+/* Extra-section ENd */
